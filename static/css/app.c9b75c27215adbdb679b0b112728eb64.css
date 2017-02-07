@@ -1,0 +1,41 @@
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+h1[data-v-575db38f], h2[data-v-575db38f] {
+  font-weight: normal;
+}
+ul[data-v-575db38f] {
+  list-style-type: none;
+  padding: 0;
+}
+li[data-v-575db38f] {
+  display: inline-block;
+  margin: 0 10px;
+}
+a[data-v-575db38f] {
+  color: #42b983;
+}
+
+h1[data-v-41bff4eb], h2[data-v-41bff4eb] {
+  font-weight: normal;
+}
+ul[data-v-41bff4eb] {
+  list-style-type: none;
+  padding: 0;
+}
+li[data-v-41bff4eb] {
+  display: inline-block;
+  margin: 0 10px;
+}
+a[data-v-41bff4eb] {
+  color: #42b983;
+}
+
+/*# sourceMappingURL=app.c9b75c27215adbdb679b0b112728eb64.css.map*/
