@@ -1,5 +1,5 @@
 <template>
-  <div class="bluetooth">
+  <div>
     <h1>{{ msg }}</h1>
   
    
@@ -8,10 +8,10 @@
 
 <script>
 export default {
-  name: 'bluetooth',
+  name: 'contact',
   data () {
     return {
-      msg: 'Hey this is the bluetooth   '
+      msg: 'Hey this is the Contact   '
     }
   }
 }

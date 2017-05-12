@@ -1,23 +1,28 @@
+
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+
+   <nav-title></nav-title>
+   <div style="margin-top:50px;"  class="container">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
+import NavTitle from './components/NavTitle'
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      msg: 'Welcome...  '
+    }
+  },
+  components: {NavTitle}
 }
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+.main {
+  margin-top:30px;
 }
 </style>
