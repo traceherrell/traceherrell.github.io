@@ -10,7 +10,7 @@
     <div v-show="show" style="height: auto;  
                               width: 100%;  
                               z-index: 10; 
-                              top: 40px;  
+                              top: 38px;  
                               background-color: #ffffff; 
                               position: absolute; 
                               overflow: hidden; 
@@ -20,12 +20,7 @@
                               border-left: solid 1px #EEEEEE; 
                               border-right: solid 1px #EEEEEE; ">
       <ul>
-    <li style="list-style: none; 
-              margin-left: -35px; 
-              cursor: pointer; 
-              margin-right: 5px; 
-              padding-left: 5px;" 
-        v-html="item" v-for="(item,index) in marked  " 
+    <li v-html="item" v-for="(item,index) in marked  " 
         v-bind:class="activeClass(index)" 
         v-on:mousedown="hit" 
         v-on:mousemove="setActive(index)">
@@ -127,3 +122,19 @@ export default {
   }
 }
 </script>
+<style scoped>
+
+  li {
+    list-style: none; 
+    margin-left: -35px; 
+    cursor: pointer; 
+    margin-right: 5px; 
+    padding-left: 5px;
+  }
+
+ li.active {
+   color: #ffffff;
+   background-color: #0082fc;
+   border-color: #0065c3;
+ }
+</style>

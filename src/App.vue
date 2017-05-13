@@ -21,8 +21,6 @@ export default {
   components: {NavTitle}
 }
 </script>
-<style scoped>
-.main {
-  margin-top:30px;
-}
+<style >
+
 </style>

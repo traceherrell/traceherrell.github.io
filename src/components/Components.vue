@@ -1,15 +1,22 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-   
-  
-
-     <ul>
-      <li> <router-link to="/bluetooth">Bluetooth api playground</router-link></li>
-    
-    </ul>
-    <input-select-list></input-select-list>
-   
+  <div>
+    <h3>Here are a couple examples of some custom, reusable components</h3>
+    <div class="row">
+      <div class="col-md-7">
+        <input-select-list></input-select-list>
+      </div>
+      <div class="col-md-5">
+      
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <input-select-list></input-select-list>
+      </div>
+       <div class="col-md-5">
+      
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,5 +36,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+ h3 {
+   margin-bottom: 30px;
+   padding-bottom: 20px;
+   border-bottom: solid 1px #EEEEEE
+ }
 </style>

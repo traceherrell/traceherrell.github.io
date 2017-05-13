@@ -1,8 +1,12 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-     <ul>
-      <li> <router-link to="/bluetooth">Bluetooth api playground</router-link></li>  
+    
+    <ul>
+      <li><a href="https://vuejs.org" target="_blank">vuejs</a></li>
+      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
+      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
+      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
+    
     </ul>
      
   </div>
@@ -15,7 +19,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome...   '
+      msg: ' '
     }
   },
   components: {InputSelectList}
