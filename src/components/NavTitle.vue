@@ -1,31 +1,26 @@
 <template>
-  <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">{{title}}</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <router-link v-for="item in menuItems" 
+
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">{{title}}</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <router-link class="nav-item" v-for="item in menuItems" 
               tag="li" 
               :to="'/'+ item"
               :activeClass="'active'"
               >
-                  <a>{{item}}</a>
+                  <a class="nav-link">{{item}}</a>
              </router-link>
                      
-           
-          </ul>
-          
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+    </ul>
+  </div>
+</nav>
+
+
+  
 </template>
 
 <script>
@@ -34,7 +29,7 @@ export default {
   data () {
     return {
       title: 'trace.herrell.io',
-      menuItems: ['Portfolio', 'Contact', 'Components'],
+      menuItems: ['Resume', 'Portfolio', 'Contact', 'Components'],
       active: 'active'
     }
   }
@@ -42,6 +37,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style>
+  
 </style>

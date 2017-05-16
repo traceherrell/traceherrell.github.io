@@ -1,7 +1,7 @@
 {
-  "name": "myproject",
+  "name": "traceherrell.github.io",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Portfolio for Trace Herrell",
   "author": "Trace Herrell",
   "private": true,
   "scripts": {
@@ -12,11 +12,16 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0-alpha.6",
     "font-awesome": "^4.7.0",
     "lodash": "^4.17.4",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.5",
     "vue": "^2.1.10",
-    "vue-router": "^2.2.0"
+    "vue-router": "^2.2.0",
+    "vue-scrollTo": "^2.4.1",
+    "vue-scrollto": "^2.6.8",
+    "webpack": "^2.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

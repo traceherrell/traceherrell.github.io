@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
-    
+    <h4>
+      Hello... this site is profile/demo example built with modern a modern javascript component library and build tooling.
+    </h4>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">vuejs</a></li>
       <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
@@ -13,20 +15,18 @@
 </template>
 
 <script>
-import InputSelectList from './InputSelectList'
-
 export default {
   name: 'hello',
   data () {
     return {
       msg: ' '
     }
-  },
-  components: {InputSelectList}
+  }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+ li {
+   list-style: none;
+ }
 </style>

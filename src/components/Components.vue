@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container" >
     <h3>Here are a couple examples of some custom, reusable components</h3>
     <div class="row">
       <div class="col-md-7">
@@ -40,5 +40,8 @@ export default {
    margin-bottom: 30px;
    padding-bottom: 20px;
    border-bottom: solid 1px #EEEEEE
+ }
+ .container {
+   margin-top: 50px;
  }
 </style>

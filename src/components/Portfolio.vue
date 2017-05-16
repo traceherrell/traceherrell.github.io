@@ -1,16 +1,26 @@
 <template>
-  <div class="row">
-    <div class="col-sm-7">
-    <h4>Bluetooth - Launch Studio</h4>
-    <img class="img-responsive" src="../assets/launchstudio.png"><img>
-    
-     <h4>John L Scott - Search</h4>
-    <img class="img-responsive" src="../assets/j_search.png"><img>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <h4>Bluetooth - Launch Studio</h4>
+        <img class="img-fluid" src="../assets/launchstudio.png">
+        </div> 
+        <div class="col-sm-5"> 
 
+        </div>
+      </div>
+       <div class="row">
+      <div class="col-sm-7">
+       <h4>John L Scott - Search</h4>
+        <img class="img-fluid" src="../assets/j_search.png">
+        </div> 
+        <div class="col-sm-5"> 
+          
+        </div>
+      </div>  
     </div>
-    </div>
-   
-  </div>
+  
+
 </template>
 
 <script>

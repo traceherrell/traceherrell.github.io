@@ -3,9 +3,9 @@
   <div id="app">
 
    <nav-title></nav-title>
-   <div style="margin-top:50px;"  class="container">
+   <transition name="fade" mode="out-in">
       <router-view></router-view>
-    </div>
+    </transition>
   </div>
 </template>
 
@@ -22,5 +22,19 @@ export default {
 }
 </script>
 <style >
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: opacity 2s ease;
+}
+
+
+
+.fade-leave-active {
+    transition: opacity 1.5 ease;
+    opacity: 0;
+}
 
 </style>
