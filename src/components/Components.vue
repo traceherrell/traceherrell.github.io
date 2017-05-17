@@ -1,6 +1,6 @@
 <template>
   <div class="container" >
-    <h3>Here are a couple examples of some custom, reusable components</h3>
+    <h3>Here are a couple examples of some custom, reusable components built with Vue</h3>
     <div class="row">
       <div class="col-md-7">
         <input-select-list></input-select-list>
