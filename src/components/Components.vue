@@ -11,7 +11,7 @@
     </div>
     <div class="row">
       <div class="col-md-7">
-        <input-select-list></input-select-list>
+      
       </div>
        <div class="col-md-5">
       

@@ -6,21 +6,22 @@
     :textfield="'name'"
     :placeholder="'Start typing to slelect a name'"
     :resetOnSelected = "true"
-    v-on:selected="onSelected"
+    @selected="onSelected"
    ></input-select>
-   
+   <section style="margin-top:30px;">
     <transition-group name="list" tag="ul">
-      <li v-for="n in selectedList" v-bind:key="n">
+      <li v-for="n in people" v-bind:key="n">
        <h4> {{n.name}} <i class="fa fa-trash" @click="remove(n)" ></i>    </h4>
       </li>
     </transition-group>
-  
+   </section>
   </div>
 </template>
 
 <script>
 import _ from 'lodash'
 import InputSelect from './InputSelect'
+import { mapGetters } from 'vuex'
 
 export default {
   name: 'inputSelectList',
@@ -31,24 +32,34 @@ export default {
        {name: 'Nathan', id: 3},
        {name: 'Molly', id: 4},
        {name: 'John', id: 5},
-       {name: 'Abby', id: 6}
+       {name: 'bbbcc', id: 6},
+       {name: 'ccceeeff', id: 7},
+       {name: 'ggghhhiii', id: 8},
+       {name: 'jjjkkklll', id: 9},
+       {name: 'mmmmnnnooop', id: 10},
+       {name: 'quvwxyz', id: 11},
+       {name: 'Abby', id: 12}
       ],
-      selectedName: '',
-      selectedList: []
+      selectedName: ''
     }
   },
+  computed: mapGetters([
+    'people'
+  ]),
   methods: {
     onSelected (data) {
-      this.selectedList.push(data)
+      // this.selectedList.push(data)
+      this.$store.dispatch('addPerson', data)
       this.lookup = _.filter(this.lookup, (item) => {
         return data.id !== item.id
       })
     },
     remove (data) {
+      this.$store.dispatch('removePerson', data)
       this.lookup.push(data)
-      this.selectedList = _.filter(this.selectedList, (item) => {
-        return data.id !== item.id
-      })
+      // this.selectedList = _.filter(this.selectedList, (item) => {
+      //  return data.id !== item.id
+      // })
     }
   },
   components: {InputSelect}
