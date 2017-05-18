@@ -26,7 +26,7 @@ export default {
   name: 'navtitle',
   data () {
     return {
-      title: 'trace.herrell.io',
+      title: 'traceherrell.com',
       menuItems: ['Resume', 'Portfolio', 'Components'],
       active: 'active',
       open: false

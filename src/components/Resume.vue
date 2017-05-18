@@ -29,7 +29,7 @@
         </p>
         </div>
         <div style="margin-bottom: 50px;">
-          <p>This is site is built with Vue single file componets, vue-router, webpack, babel.  It does not require a server and is being statically hosted on GitHubs GitPages. </p>
+          <p>This is site is built with Vue single file componets, vue-router, webpack, babel.  It does not require a server and is being statically hosted on GitHubs GitPages.  Here's the link to the <a href="https://github.com/traceherrell/traceherrell.github.io"> source.</a> </p>
           <p> </p>
         </div>
 
@@ -216,7 +216,7 @@ section {
 }
 
 .about-me p {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .timeline {
