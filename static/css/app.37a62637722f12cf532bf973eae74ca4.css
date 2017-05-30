@@ -62,6 +62,14 @@
   float: left;
 }
 
+.container {
+  margin-top: 35px;
+}
+.myContact {
+  margin-top: 35px;
+  font-size: 20px;
+}
+
 h3[data-v-3e2d08a9] {
   margin-bottom: 30px;
   padding-bottom: 20px;
@@ -14496,4 +14504,4 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .hidden-print {
     display: none !important; } }
 
-/*# sourceMappingURL=app.70115c5378aee7e5e7427e263dfe9852.css.map*/
+/*# sourceMappingURL=app.37a62637722f12cf532bf973eae74ca4.css.map*/

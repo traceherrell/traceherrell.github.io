@@ -27,7 +27,7 @@ export default {
   data () {
     return {
       title: 'traceherrell.com',
-      menuItems: ['Resume', 'Portfolio', 'Components'],
+      menuItems: ['Resume', 'Portfolio', 'Contact', 'Components'],
       active: 'active',
       open: false
     }
