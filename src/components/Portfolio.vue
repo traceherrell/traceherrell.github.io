@@ -4,7 +4,7 @@
   <div class="col-md-6">
     <div class="card" style="width: 20rem;">
       <img class="card-img-top img-fluid" src="../assets/launchstudio.png" alt="Launch Studio">
-      <div class="card-block">
+      <div class="card-body">
         <h4 class="card-title">Bluetooth Launch Studio</h4>
         <p class="card-text">A tool to complete the Bluetooth qualification process. This tool is only for bluetooth members so I can't link directly to the application.  I'll be putting together some screen shots soon to show more about this application.</p>
         <b-button variant="primary" v-b-modal.modal1>View Screen Shots</b-button>
@@ -12,9 +12,10 @@
     </div>
   </div>
    <div class="col-md-6">
+     
   <div class="card" style="width: 20rem;">
       <img class="card-img-top img-fluid" src="../assets/j_search.png" alt="John L Scott">
-      <div class="card-block">
+      <div class="card-body">
         <h4 class="card-title">John L Scott</h4>
         <p class="card-text">Search and find realestate listings similar to Redfin and Zillow.  Since this is a public site you can click the button below to try it out yourself. </p>
         <a href="https://www.johnlscott.com/search" class="btn btn-primary">JohnLScott.com</a>
