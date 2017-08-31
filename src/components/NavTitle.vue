@@ -1,6 +1,6 @@
 <template>
 
-<nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
+<nav class="navbar navbar-expand-md navbar-inverse bg-primary">
   <button @click="toggle" class="navbar-toggler navbar-toggler-right" type="button">
     <span class="navbar-toggler-icon"></span>
   </button>

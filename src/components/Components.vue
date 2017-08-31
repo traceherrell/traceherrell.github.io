@@ -11,7 +11,7 @@
     </div>
     <div class="row">
       <div class="col-md-7">
-      
+         <!-- <interval-timer> </interval-timer> -->
       </div>
        <div class="col-md-5">
       
@@ -22,6 +22,7 @@
 
 <script>
 import InputSelectList from './InputSelectList'
+import IntervalTimer from './IntervalTimer'
 
 export default {
   name: 'components',
@@ -30,7 +31,7 @@ export default {
       msg: 'Welcome...  Below are a couple examples of custom components I have built '
     }
   },
-  components: {InputSelectList}
+  components: {InputSelectList, IntervalTimer}
 }
 </script>
 

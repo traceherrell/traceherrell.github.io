@@ -6,9 +6,13 @@ import router from './router'
 import store from './store'
 import 'font-awesome/css/font-awesome.css'
 import 'bootstrap/scss/bootstrap.scss'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/main.scss'
 
 import VueScrollTo from 'vue-scrollto'
+import BootstrapVue from 'bootstrap-vue'
+
+Vue.use(BootstrapVue)
 
 // You can also pass in the default options
 Vue.use(VueScrollTo, {
